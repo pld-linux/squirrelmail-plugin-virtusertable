@@ -12,7 +12,7 @@ URL:		http://www.squirrelmail.org/
 Requires:	squirrelmail
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_plugindir	/home/services/httpd/html/squirrel/plugin/%{_plugin}
+%define		_plugindir	/home/httpd/html/squirrel/plugin/%{_plugin}
 
 %description
 For those who use sendmail's virtusertable, user's will we able to logg in
