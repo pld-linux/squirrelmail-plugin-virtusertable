@@ -9,10 +9,10 @@ Group:		Applications/Mail
 Source0:	http://www.squirrelmail.org/plugins/%{_plugin}-%{version}.tar.gz
 # Source0-md5:	8b33deac026f6e4c099aa918da71f8aa
 URL:		http://www.squirrelmail.org/
-Requires:	squirrelmail
+Requires:	squirrelmail >= 1.4
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_plugindir	/home/services/httpd/html/squirrel/plugin/%{_plugin}
+%define		_plugindir	/home/services/httpd/html/squirrel/plugins/%{_plugin}
 
 %description
 For those who use sendmail's virtusertable, users will be able to log
