@@ -15,8 +15,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_plugindir	/home/services/httpd/html/squirrel/plugin/%{_plugin}
 
 %description
-For those who use sendmail's virtusertable, user's will we able to logg in
-using their full mail address instead of their user name.
+For those who use sendmail's virtusertable, users will be able to log
+in using their full mail address instead of their user name.
+
+%description -l pl
+Dla tych którzy u¿ywaj± sendmailowego virtusertable - u¿ytkownicy bêd±
+mogli siê logowaæ przy u¿yciu pe³nego adresu mailowego zamiast samej
+nazwy u¿ytkownika.
 
 %prep
 %setup -q -n %{_plugin}
