@@ -3,7 +3,7 @@ Summary:	To logg in with your email address as in virtusertable
 Summary(pl):	Logowanie z u¿yciem pe³nego adresu mailowego, jak w virtusertable
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	0.3
-Release:	1
+Release:	3
 License:	GPL
 Group:		Applications/Mail
 Source0:	http://www.squirrelmail.org/plugins/%{_plugin}-%{version}.tar.gz
