@@ -1,6 +1,6 @@
 %define		_plugin	virtusertable
 Summary:	To logg in with your email address as in virtusertable
-Summary(pl):	Logowanie z u¿yciem pe³nego adresu mailowego, jak w virtusertable
+Summary(pl.UTF-8):   Logowanie z uÅ¼yciem peÅ‚nego adresu mailowego, jak w virtusertable
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	0.3
 Release:	4
@@ -19,10 +19,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 For those who use sendmail's virtusertable, users will be able to log
 in using their full mail address instead of their user name.
 
-%description -l pl
-Dla tych którzy u¿ywaj± sendmailowego virtusertable - u¿ytkownicy bêd±
-mogli siê logowaæ przy u¿yciu pe³nego adresu mailowego zamiast samej
-nazwy u¿ytkownika.
+%description -l pl.UTF-8
+Dla tych ktÃ³rzy uÅ¼ywajÄ… sendmailowego virtusertable - uÅ¼ytkownicy bÄ™dÄ…
+mogli siÄ™ logowaÄ‡ przy uÅ¼yciu peÅ‚nego adresu mailowego zamiast samej
+nazwy uÅ¼ytkownika.
 
 %prep
 %setup -q -n %{_plugin}
