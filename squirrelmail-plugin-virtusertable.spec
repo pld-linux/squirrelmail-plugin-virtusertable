@@ -1,5 +1,5 @@
 %define		_plugin	virtusertable
-Summary:	To logg in with your email address as in virtusertable
+Summary:	To log in with your email address as in virtusertable
 Summary(pl.UTF-8):	Logowanie z użyciem pełnego adresu mailowego, jak w virtusertable
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	0.3
